@@ -18,18 +18,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Roscon 2024 workshop
+title: Roscon 2024 workshop - Hand-Held Mobile Mapping System for Large Scale Surveys
 email: michalpelka@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We present an open-source software toolbox for large-scale 3D mapping using an open-hardware measurement device. 
+  It is dedicated to education, research, surveying, and robotic system deployment. 
+  This software is composed of three components: LIDAR odometry, single-session refinement, and multi-session refinement. 
+  Data refinement uses a pose-graph loop closure technique and an Iterative Closest Point algorithm to minimize the error of the edge. 
+  The toolbox allows performing loop closures in a semi-automatic way. The results are 3D point clouds in LAZ data format (compressed LAS - LIDAR Aerial Survey). 
+  We will show how to collect and process ROS bags and ground truth data for ROS-based LIDAR SLAMs benchmarking. 
+  
 baseurl: "/RosCon2024_workshop/" # the subpath of your site, e.g. /blog
 url: "https://michalpelka.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  michalpelka
 
 # Build settings
+remote_theme: pages-themes/tactile@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
 theme: minima
 plugins:
   - jekyll-feed
