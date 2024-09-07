@@ -20,7 +20,7 @@
 
 title: Roscon 2024 workshop - Hand-Held Mobile Mapping System for Large Scale Surveys
 email: michalpelka@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description:
   We present an open-source software toolbox for large-scale 3D mapping using an open-hardware measurement device. 
   It is dedicated to education, research, surveying, and robotic system deployment. 
   This software is composed of three components: LIDAR odometry, single-session refinement, and multi-session refinement. 
@@ -40,7 +40,6 @@ domain: michalpelka.github.io
 url: https://michalpelka.github.io/ # the subpath of your site, e.g. /blog
 baseurl: /RosCon2024_workshop/ # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  michalpelka
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
