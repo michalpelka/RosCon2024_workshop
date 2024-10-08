@@ -90,4 +90,31 @@ Download link:\
 
 ## 3rd party SLAM evaluation with HDMapping
 
-TBD
+We prepared two 3rd party SLAMs to evaluate:
+- Kiss ICP
+- FAST Lio
+
+Those are run docker environment. Please checkout repository:
+```bash
+git clone https://github.com/michalpelka/Slams_dojo.git
+cd Slams_dojo
+git submodule init
+git submodule update
+```
+
+Next run chose SLAM with some demo dataset. Refer to [readme](https://github.com/michalpelka/Slams_dojo/blob/main/README.md) for more details.
+Here is an example to run FAST LIO with `osrf/rocker` :
+
+```
+docker build ./slams/fastlio/ -t dojo_fastlio_parking --build-arg DATASET=data_undeground_parking 
+rocker --x11 --nvidia auto --volume $(pwd)/evaluation-fastlio:/evaluation -- dojo_fastlio_parking ./system_run.sh
+```
+
+Here is expected results:
+![](assets/fastlio.gif)
+> **_NOTE3:_** Please build those images to have better experience on workshop:
+```
+cd Slams_dojo
+docker build ./slams/fastlio/ -t dojo_fastlio_usersdata --build-arg DATASET=users_data
+docker build ./slams/kiss-icp/ -t dojo_kissicp_usersdata --build-arg DATASET=users_data
+```
