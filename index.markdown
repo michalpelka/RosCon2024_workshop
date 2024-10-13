@@ -37,11 +37,11 @@ The project is available with binaries both for Windows and Linux.
 
 ### Ubuntu, prebuilt packages
 
-The prebuilt package is done automatically and can be found here for version [0.58.0](assets/hd_mapping-0.58.0-Linux.deb)
+The prebuilt package is done automatically and can be found here for version [0.61.0](assets/hd_mapping-0.61.0-Linux.deb)
 
 ```
 sudo apt-get install freeglut3-dev libeigen3-dev liblaszip-dev
-sudo dpkg -i hd_mapping-0.58.0-Linux.deb 
+sudo dpkg -i hd_mapping-0.61.0-Linux.deb 
 ```
 
 ### Windows, prebuilt packages
@@ -71,21 +71,31 @@ We will work with the data you capture, however please download following datase
 ### Underground parking
 Ground truth:\
 ![](assets/undeground_groundtruth.png)
-Dataset:
-![]()
+Dataset:\
+![](assets/underground-garage.png)
+
 Download link:\
 [link](https://drive.google.com/file/d/1W0ep2TYIF-pnI9gBNBv2fd7fcVuMyCmI/view?usp=sharing)
 
 ### Roccastrada
+Dataset:\
+![](assets/roccastrada.png)
+Download link:\
 [link](https://drive.google.com/file/d/1OinqqI4D9E6hQL1Kk073yuV2fqtgUkKf/view?usp=sharing)
 
-### Forest 
+### Forest
+![](assets/urban-street-forest.png)
+Download link:\
 [link](https://drive.google.com/file/d/1uKrv7YPvdlkTGh4oeNxvAKVvNXaovBPL/view?usp=sharing)
 
 ### Rubble Field
+![](assets/rubbels.png)
+Download link:\
 [link](https://drive.google.com/file/d/1FtQYMnmfFqVPvUdJXn54eb_gp-M_TMn7/view?usp=sharing)
 
 ### Cave
+![](assets/cave.png)
+Download link:\
 [link](https://drive.google.com/file/d/1DdgTccNPSKctF08O97XoNRK9XZ54QXst/view?usp=sharing)
 
 ## 3rd party SLAM evaluation with HDMapping
