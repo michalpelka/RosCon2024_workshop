@@ -32,6 +32,14 @@ The machine you are running should have plenty of RAM.
 For small-scale experiments, 16 GB should be enough. 
 Consider adjusting virtual memory to utilize disk space, details can be found [here](https://github.com/MapsHD/HDMapping/blob/main/doc/virtual_memory.md)
 
+## Extra software
+
+It is not essential, but highly recommended to download install CloudCompare:
+
+```
+sudo apt-get install cloudcompare
+```
+
 ## Software
 The project is available with binaries both for Windows and Linux.
 
