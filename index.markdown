@@ -37,7 +37,7 @@ Consider adjusting virtual memory to utilize disk space, details can be found [h
 It is not essential, but highly recommended to download install CloudCompare:
 
 ```
-sudo apt-get install cloudcompare
+sudo apt-get install CloudCompare
 ```
 
 ## Software
@@ -49,7 +49,7 @@ The prebuilt package is done automatically and can be found here for version [0.
 [0.62.0](assets/hd_mapping-0.62.0-Linux.deb)
 
 ```
-sudo apt-get install freeglut3-dev libeigen3-dev liblaszip-dev
+sudo apt-get install freeglut3-dev libeigen3-dev liblaszip-dev nautilus
 sudo dpkg -i hd_mapping-0.61.0-Linux.deb 
 ```
 
