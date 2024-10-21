@@ -37,7 +37,7 @@ Consider adjusting virtual memory to utilize disk space, details can be found [h
 It is not essential, but highly recommended to download install CloudCompare:
 
 ```
-sudo apt-get install cloudcompare
+sudo apt-get install CloudCompare
 ```
 
 ## Software
